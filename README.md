@@ -3,14 +3,14 @@
 fw7 with electron example how to:
 
 1. cloned the electron-quick-start repo 
-2. copyed the dist folder from fw7 download
+2. copied the dist folder from fw7 download
 3. created the 3 files from get started on fw7 (my-app.js about.html and index.html)
-4. added this lines in index.html between </body> and </html>:
-  <!-- fw7-electron quick start -->
-  <script>
-    // You can also require other files to run in this process
-    require('./renderer.js')
-  </script>
+4. added these lines in index.html between </body> and </html>:
+  "<!-- fw7-electron quick start -->"
+  "<script>"
+  "  // You can also require other files to run in this process"
+  "  require('./renderer.js')"
+  "</script>"
 5. edited main.js commentng out the lines:
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
