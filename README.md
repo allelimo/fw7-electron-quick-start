@@ -1,4 +1,20 @@
-# electron-quick-start
+# fw7-electron-quick-start
+
+fw7 with electron example how to:
+
+1. cloned the electron-quick-start repo 
+2. copyed the dist folder from fw7 download
+3. created the 3 files from get started on fw7 (my-app.js about.html and index.html)
+4. added this lines in index.html between </body> and </html>:
+  <!-- fw7-electron quick start -->
+  <script>
+    // You can also require other files to run in this process
+    require('./renderer.js')
+  </script>
+5. edited main.js commentng out the lines:
+  // Open the DevTools.
+  // mainWindow.webContents.openDevTools()
+6. follow original instructions below to install and start
 
 **Clone and run for a quick way to see an Electron in action.**
 
@@ -20,9 +36,9 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/allelimo/fw7-electron-quick-start
 # Go into the repository
-cd electron-quick-start
+cd fw7-electron-quick-start
 # Install dependencies
 npm install
 # Run the app
@@ -38,3 +54,5 @@ For more example apps, see the
 created by the awesome electron community.
 
 #### License [CC0 1.0 (Public Domain)](LICENSE.md)
+
+fw7-electron

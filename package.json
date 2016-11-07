@@ -6,15 +6,16 @@
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/allelimo/fw7-electron-quick-start",
   "keywords": [
     "Electron",
+    "fw7",
     "quick",
     "start",
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Alessandro Limonta",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^1.4.1"
